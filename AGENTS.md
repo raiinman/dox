@@ -80,4 +80,8 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Child DOX Index
 
-This project is not yet indexed. Before continuing you must scan the project, build the DOX tree and replace this message with the actual index. Go deep and scan files recursively to properly evaluate complexity and create nested DOX files where needed.
+No child DOX documents are needed: this repository contains only root documentation, its license, and presentation images. The root owns `README.md`, `AGENTS.md`, `LICENSE`, `banner.jpg`, `video-thumbnail.jpg`, `readme-banner.png`, and `readme-banner-prompt.txt`.
+
+## README presentation
+
+Keep `README.md` centered, with original decorative artwork in `readme-banner.png`, its brief in `readme-banner-prompt.txt`, compact logo badges using Shields.io `label-message-color` URLs, and a linked section index with verified project-file shortcuts. Center documentation tables and code containers while preserving code spacing. Public repository metrics may use live Shields.io or Badgen badges. Preserve project status, attribution, evidence boundaries, and operational authority; artwork and badges are presentation only.
