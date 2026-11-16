@@ -10,4 +10,4 @@ Nothing captured yet. Add text below whenever useful.
 
 ## Parked
 
-Nothing parked yet. No due date required.
+Nothing parked yet. Ideas can stay here without a due date or commitment. This is not today's queue. The agent checks context and authorization before promoting an idea to the current action.

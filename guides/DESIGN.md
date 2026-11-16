@@ -26,6 +26,12 @@ The owner chose to retain the resume page, checkpoints, inbox, decisions and evi
 
 This supersedes the first redesign's omission of required child indexes and its less explicit hierarchy maintenance. Existing earlier design reasoning remains above; it does not exempt agents from the restored contract. The four root starter files are an entry kit. Real project boundaries receive child instructions, each indexed by its direct parent. The human resume page remains short and singular.
 
+## Draft 2026-11-16: make the short view easier to act on
+
+The reviewed reading and its limits are recorded in [RESEARCH-NOTES.md](RESEARCH-NOTES.md). Proposed refinements make starting points explicit, leave sequencing with the agent, allow a short return without backlog cleanup, preserve uncommitted ideas, and treat reported usability friction separately from document/product checks. A visual explanation is offered when it helps the reader.
+
+These are design adaptations to test. They do not diagnose masking or convert clinical work on girls and women into a universally validated organization system. No hierarchy obligations are removed, and no extra daily-maintenance file or questionnaire is added.
+
 ## Validation still needed
 
 This is not clinically validated and does not guarantee adherence or synchronization. Its first real-use check is whether the owner can return after an interruption and use the short page to identify where work stopped and what happens next. Improve that experience before adding more documentation.

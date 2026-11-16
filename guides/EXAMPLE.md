@@ -19,6 +19,7 @@ Everything below is invented. Paths and identities illustrate the format; they a
 ## Working details
 
 - Source: `C:\Projects\PocketNotes`, branch `fix/reopen`.
+- Open first: `checks/reopen-2026-11-16.md`, then the recorded disposable-note reproduction. The agent verifies the actual local path before offering it as a runnable instruction.
 - Installed: version 0.2, which does not include this fix.
 - Owner: build agent in the implementation session.
 - Boundary: disposable test notes only; preserve the real notebook.
@@ -65,5 +66,9 @@ This is one fictional organization, not a command to move existing source. Every
 | Owner says “stop this project” | Checkpoint pause and resume condition; unrelated chat does not restart it |
 | Storage responsibilities change | Update storage's contract and any affected parent/child scopes; checkpoint alone is insufficient |
 | A child folder or instruction file moves | Re-read affected chains; update direct-parent indexes and paths; verify old pointers are removed |
+| Owner says “everything links, but I still can't find the start” | Preserve passed link checks; record the reported navigation friction and put the exact starting file in the short view |
+| Owner says “too much” after a gap | Show the short reconciled state and one small authorized step; do not require reading the backlog or explaining the gap |
+| A new idea appears mid-task | Keep its original wording in the parked inbox; do not silently switch the current action |
+| Owner asks for a visual explanation | Derive a small map from the same canonical records; label a static image as a snapshot |
 
 Paper walkthroughs check consistency. They do not prove an agent will always follow instructions or that the workflow is useful over time.

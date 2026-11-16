@@ -51,6 +51,20 @@ Aim for 150 words or fewer above “Working details.” Use short sentences and 
 
 Below that, keep exact working-copy and installed/published pointers, verified entry point if applicable, current owner, constraints, scoped evidence and useful reference links. Keep private paths out of public mirrors.
 
+### Make the next action usable
+
+Treat the resume page as a launch pad. Name the exact document, file, screen or verified command needed to start, with a direct link when available. A project title such as “continue development” is not an executable next action. When several candidates compete, briefly explain why this one comes first using real dependencies, deadlines or owner direction; do not invent urgency.
+
+Break down only the next useful step. The agent does the sequencing and routine prioritization; the owner is not required to plan the entire project before starting. Keep alternative ideas parked and accessible instead of displaying the whole backlog beside the current action. Do not add fields or a new dashboard to satisfy this rule.
+
+### When the owner is lost or the system is too much
+
+Accept “I'm lost,” “too much,” “can't find it,” or a rough voice/text fragment as sufficient input. Reconcile available records yourself, return the short current view and offer the smallest useful authorized action. Do not require a backlog cleanup, daily ritual, completed template or explanation of a lapse before helping them resume. Preserve the full hierarchy and required checks behind that short view.
+
+If prose is not helping, offer a small visual map of the same canonical information; label static renders as snapshots and keep their status subordinate to the current checkpoint. Follow the owner's expressed format preference without inferring a diagnosis or universal learning style.
+
+An owner's report that something is confusing or exhausting is usability evidence even when file/link/product checks pass. Record the concrete friction and an attempted adjustment in the existing checkpoint or inbox, with attribution. Do not infer that a polished record means the system is easy to use, diagnose masking, or collect health/energy scores. Judge the adjustment by whether it helps them find, start or resume; do not add a recurring questionnaire.
+
 ### Checkpoint during work
 
 Update after a meaningful result, a failed check that changes the next action, a source/owner change, and before a long operation or handoff. Record the operation about to start. Do not depend on a final reply to save the state.
@@ -71,6 +85,8 @@ After an abrupt interruption, the checkpoint may lag. Inspect changed files and 
 Accept rough text without categories, priority or polished wording. Preserve the original thought and date when known. Capture is not implementation approval.
 
 Triage relevant items into the current action, a durable decision, parked, or answered with a pointer. Add the disposition beside the original entry so thoughts do not vanish. Parked ideas stay out of the immediate queue. No overdue counts, streaks, guilt language or mandatory inbox-clearing ritual.
+
+An idea may be kept without a date or commitment. Only the agent's current authorized action occupies the next-action slot. A new thought does not silently replace it. When returning to a parked idea, re-check its context and authorization before promoting it.
 
 Record decisions that affect future work: choice, status, reason, who decided, date, source and any condition/boundary. Label agent suggestions as proposed. Later choices name what they supersede; retain the earlier record. Reuse an existing decision system rather than duplicating it.
 
