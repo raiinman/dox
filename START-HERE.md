@@ -1,22 +1,22 @@
 # Pick it back up: DOX
 
-**Status:** [Draft PR #1](https://github.com/raiinman/dox/pull/1) is open. Not installed into other projects.
+**Status:** [PR #1](https://github.com/raiinman/dox/pull/1) is merged. The owner authorized a first local project trial.
 
 **We stopped here:** Replaced instruction-tree-first documentation with a short resume page, checkpoints during work, rough capture and durable decisions. Portable kit and migration guide are written.
 
-**Next:** Try the starter in one project when selected by the owner. Finished when a return after interruption clearly identifies where work stopped and one next action.
+**Next:** Evaluate the first trial on return from an interruption. Finished when the short page clearly identifies where work stopped and one next action, or the owner's feedback identifies what to fix.
 
-**You need to do:** Review the short example; no migration has been started.
+**You need to do:** Use the trial's resume page when returning; no documentation maintenance is assigned to you.
 
-**Checked:** 2026-11-16, America/Phoenix, Codex. Redesign `79bfc0e` on `redesign/resume-first`; this checkpoint records its review delivery. Base is `6c564ce`.
+**Checked:** 2026-11-16, America/Phoenix, Codex. Redesign merged as `41d6efe` on `main`; this checkpoint records the merge and trial authorization.
 
 ## Working details
 
 - Working copy: this delivered repository folder.
 - Entry point: [README.md](README.md). Install from [starter/](starter/).
-- Published: draft PR #1 on `redesign/resume-first`. Main remains at the original base.
+- Published: PR #1 merged into `main` as `41d6efe`.
 - Owner: Codex in the redesign chat.
-- Boundaries: preserve attribution and assets; keep personal research outside public kit. No other project has been migrated.
+- Boundaries: preserve attribution and assets; keep personal research and trial project details outside the public kit.
 
 ## What actually works
 
