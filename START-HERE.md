@@ -1,6 +1,6 @@
 # Pick it back up: DOX
 
-**Status:** Redesign prepared for draft review. Not installed into other projects.
+**Status:** [Draft PR #1](https://github.com/raiinman/dox/pull/1) is open. Not installed into other projects.
 
 **We stopped here:** Replaced instruction-tree-first documentation with a short resume page, checkpoints during work, rough capture and durable decisions. Portable kit and migration guide are written.
 
@@ -8,13 +8,13 @@
 
 **You need to do:** Review the short example; no migration has been started.
 
-**Checked:** 2026-11-16, America/Phoenix, Codex. Base `6c564ce`, branch `redesign/resume-first`, local diff.
+**Checked:** 2026-11-16, America/Phoenix, Codex. Redesign `79bfc0e` on `redesign/resume-first`; this checkpoint records its review delivery. Base is `6c564ce`.
 
 ## Working details
 
 - Working copy: this delivered repository folder.
 - Entry point: [README.md](README.md). Install from [starter/](starter/).
-- Publication target: draft review of branch `redesign/resume-first`; main is not being replaced directly.
+- Published: draft PR #1 on `redesign/resume-first`. Main remains at the original base.
 - Owner: Codex in the redesign chat.
 - Boundaries: preserve attribution and assets; keep personal research outside public kit. No other project has been migrated.
 
