@@ -24,6 +24,8 @@ Designed for someone who loses the thread easily, including people with ADHD. Th
 
 One page. One next action. Evidence and reference material sit below the short version.
 
+The next action points to the exact starting file or page. If you return feeling lost, the agent reconciles the records and shows that short view; you do not have to clear the backlog first. A system that feels confusing still needs adjustment even when its links and checks pass.
+
 ## Start using it
 
 Give your project agent access to this repository or its downloaded files, then say:
@@ -66,6 +68,8 @@ Each parent declares ownership and indexes direct child AGENTS.md files. Childre
 Existing specs, test records and useful local rules stay where they belong. DOX links to them instead of copying them into more documents.
 
 [Filled-in example](guides/EXAMPLE.md) · [Migration](guides/MIGRATION.md) · [Design decisions](guides/DESIGN.md)
+
+[Research notes behind the draft usability refinements](guides/RESEARCH-NOTES.md) distinguish the published reading from our adaptations. Those refinements retain the indexed instruction hierarchy.
 
 ## Limits and credits
 

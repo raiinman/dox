@@ -6,11 +6,13 @@ Explain adoption and demonstrate the combined resume workflow and instruction hi
 
 ## Ownership
 
-This scope owns MIGRATION.md, EXAMPLE.md, DESIGN.md and CHILD-TEMPLATE.md. The root retains the product introduction, current project state, starter contract ownership, licensing and artwork.
+This scope owns MIGRATION.md, EXAMPLE.md, DESIGN.md, CHILD-TEMPLATE.md and RESEARCH-NOTES.md. The root retains the product introduction, current project state, starter contract ownership, licensing and artwork.
 
 ## Local Contracts
 
 Examples are fictional. Preserve the distinction between one human resume page and distributed binding instructions. Adoption must merge existing contracts, maintain direct-child indexes and preserve unique evidence. Do not publish personal trial details.
+
+Research notes must name what was actually read, distinguish findings/advice from DOX adaptations, and preserve population and evidence limits. No implied author endorsement or claim that DOX has been clinically validated.
 
 ## Work Guidance
 
