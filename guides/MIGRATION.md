@@ -10,13 +10,14 @@ The agent does this work. The owner should not need to rebuild a filing system.
 4. Reconcile status against actual source/build identity. Separate working source, installed app and published repository. Keep conflicting reports explicitly unresolved until verified.
 5. Fill the resume section with one authorized next action. Preserve a pause or completion when appropriate. Do not invent further work.
 6. Reuse existing capture and decision systems. Preserve unique facts, failures, constraints and evidence from old handoffs. Replace duplicate state sections with pointers only after those facts have a destination. Preserve originals in version control or a dated archive before editing.
-7. Check links and simulate returning after an interruption: can the agent locate the right copy, explain the unfinished result and identify one action without asking the owner to reconstruct history?
+7. Inspect durable scope boundaries and existing child contracts. Create or reconcile child AGENTS.md files using [the standard structure](CHILD-TEMPLATE.md); state each scope's responsibilities and what its parent retains. Register direct children in each parent's Child DOX Index. Leave unestablished guidance/check sections empty. Do not relocate source just to make the tree look uniform.
+8. Check both views: simulate returning after an interruption, then changing a local contract. The agent must locate the right copy and one next action, read the correct parent/child chain, and identify every affected contract/index to update.
 
 Do not bulk rewrite child instructions, rename working folders, relocate source, delete history, install software or publish material as part of documentation adoption unless that is also within scope.
 
 ## New project
 
-Copy the four `starter/` files into the root. Merge if any destination exists. Fill unknowns from evidence; leave missing information explicitly unknown. Do not copy DOX's own project status as another project's status.
+Copy the four `starter/` files into the root. Merge if any destination exists. Fill unknowns from evidence; leave missing information explicitly unknown. Then establish indexed child contracts at real scope boundaries. The starter's no-children placeholder must be replaced with the actual project index when children exist. Do not copy DOX's own project status as another project's status.
 
 ## Mirrors and inaccessible systems
 

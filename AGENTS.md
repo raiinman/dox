@@ -8,8 +8,8 @@ DOX helps someone return to a project without reconstructing chat history. Prior
 
 - `README.md`: introduction and adoption.
 - `START-HERE.md`: current state of this redesign, maintained by the working agent.
-- `starter/AGENTS.md`: reusable workflow and instructions for the four-file portable kit. No additional child contract is needed.
-- `guides/`: migration, fictional example and design decisions, owned by this root contract.
+- `starter/AGENTS.md`: portable root contract and scoped owner of the four-file starter; see Child DOX Index.
+- `guides/`: adoption examples, design decisions and child-document template, delegated to `guides/AGENTS.md`.
 - Existing images, `LICENSE` and `COPYRIGHT.md`: preserve files and attribution. Artwork is presentation, not authority.
 
 ## Work guidance
@@ -25,3 +25,10 @@ DOX helps someone return to a project without reconstructing chat history. Prior
 ## Verification
 
 Check local Markdown links, anchors, the four-file starter inventory and upstream attribution. Walk interrupted work, failed checks, stale state and existing-project migration using `guides/EXAMPLE.md`. Report what was actually checked. There is no application build or unit-test suite.
+
+## Child DOX Index
+
+- [starter/AGENTS.md](starter/AGENTS.md): owns the portable workflow and starter resume, inbox and decision templates. No deeper boundaries exist in that four-file kit. When installed, its index is replaced with the destination project's actual children.
+- [guides/AGENTS.md](guides/AGENTS.md): owns migration instructions, fictional scenarios, design rationale and the child-document template.
+
+This root retains project introduction, repository resume state, licensing, attribution, artwork and cross-scope workflow consistency. The four-file inventory excludes repository-only guide contracts and templates.

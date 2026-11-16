@@ -26,7 +26,30 @@ Everything below is invented. Paths and identities illustrate the format; they a
 - DECISIONS: “keep notebooks local,” with the owner's dated direction.
 - INBOX: “maybe cloud sync later,” preserved as parked, not authorized.
 
-## Scenario review
+## The instruction tree underneath
+
+```text
+PocketNotes/
+  AGENTS.md          # owns global rules and indexes src/ and tests/
+  START-HERE.md      # the one human resume page
+  INBOX.md
+  DECISIONS.md
+  src/
+    AGENTS.md        # owns application rules; indexes ui/ and storage/
+    ui/
+      AGENTS.md      # owns UI contracts, not notebook persistence
+      Window.cs
+    storage/
+      AGENTS.md      # owns notebook persistence, not UI navigation
+      NotebookStore.cs
+  tests/
+    AGENTS.md        # owns disposable fixtures and test evidence
+    SaveTests.cs
+```
+
+This is one fictional organization, not a command to move existing source. Every child uses the standard six sections. For a storage change, read root, src and storage contracts; maintain the affected contracts and parent indexes as well as the resume checkpoint. The owner still opens only the short resume page.
+
+### Scenario review
 
 | Situation | Expected behavior |
 | --- | --- |
@@ -40,5 +63,7 @@ Everything below is invented. Paths and identities illustrate the format; they a
 | Owner says “park cloud sync” | Keep idea outside next-action slot; preserve decision boundaries |
 | Existing state page works | Use its resume section; START-HERE points there |
 | Owner says “stop this project” | Checkpoint pause and resume condition; unrelated chat does not restart it |
+| Storage responsibilities change | Update storage's contract and any affected parent/child scopes; checkpoint alone is insufficient |
+| A child folder or instruction file moves | Re-read affected chains; update direct-parent indexes and paths; verify old pointers are removed |
 
 Paper walkthroughs check consistency. They do not prove an agent will always follow instructions or that the workflow is useful over time.

@@ -20,6 +20,12 @@ AGENTS holds rules, DECISIONS holds choices, INBOX holds capture, and the resume
 
 Examples are fictional. Personal research informs design without being included in a public kit. No private paths or chat exports belong in reusable product documentation.
 
+## Accepted 2026-11-16: restore hierarchy maintenance alongside the resume workflow
+
+The owner chose to retain the resume page, checkpoints, inbox, decisions and evidence distinctions, and restore explicit scope ownership, child indexes, standard child-document structure and mandatory hierarchy maintenance.
+
+This supersedes the first redesign's omission of required child indexes and its less explicit hierarchy maintenance. Existing earlier design reasoning remains above; it does not exempt agents from the restored contract. The four root starter files are an entry kit. Real project boundaries receive child instructions, each indexed by its direct parent. The human resume page remains short and singular.
+
 ## Validation still needed
 
 This is not clinically validated and does not guarantee adherence or synchronization. Its first real-use check is whether the owner can return after an interruption and use the short page to identify where work stopped and what happens next. Improve that experience before adding more documentation.

@@ -6,6 +6,8 @@
 
 DOX is a small Markdown workflow for returning to work after an interruption. The agent keeps your place; you do not have to reconstruct the conversation or maintain a filing system.
 
+Under that short entry page, agents maintain the original DOX hierarchy: explicit scope ownership, child indexes, standard child contracts and a mandatory documentation pass after meaningful changes.
+
 Designed for someone who loses the thread easily, including people with ADHD. This is a workflow design, not treatment or a claim that everyone works the same way.
 
 **Working on DOX itself? Open [START-HERE.md](START-HERE.md).**
@@ -32,7 +34,7 @@ where we stopped, one next action, and anything needed from me.
 Keep it updated as you work. Do the documentation maintenance yourself.
 ```
 
-For a new project, copy the four [starter files](starter/) into its root. For an existing project, **merge** instructions and map existing state documents first. Never overwrite an existing AGENTS.md. A prompt alone does not install files. [Migration guide](guides/MIGRATION.md).
+For a new project, copy the four [starter files](starter/) into its root, then have the agent identify real scope boundaries and add indexed child contracts. These four files are the entry kit, not a limit on the hierarchy. For an existing project, **merge** instructions and map existing state documents first. Never overwrite an existing AGENTS.md. A prompt alone does not install files. [Migration guide](guides/MIGRATION.md).
 
 | File | Purpose | Maintained by |
 | --- | --- | --- |
@@ -55,7 +57,9 @@ These are conversational conventions, not registered commands. They depend on th
 
 ## What changed
 
-Original DOX organizes agent instructions into a tree. This version keeps useful scoped instructions and makes a human resume page the main entry point. It adds checkpoints during work, an inbox, durable decisions and exact working-copy pointers.
+Original DOX organizes agent instructions into a tree. This version retains that tree and its mandatory maintenance, and adds a human resume page, checkpoints during work, an inbox, durable decisions and exact working-copy pointers. Agents maintain the structure; you normally use the short page.
+
+Each parent declares ownership and indexes direct child AGENTS.md files. Children use Purpose, Ownership, Local Contracts, Work Guidance, Verification and Child DOX Index. Before editing, agents read the applicable chain; after meaningful work, they update affected scopes and indexes. [Child-document template](guides/CHILD-TEMPLATE.md).
 
 Existing specs, test records and useful local rules stay where they belong. DOX links to them instead of copying them into more documents.
 

@@ -2,7 +2,25 @@
 
 Keeping the owner's place is part of your work. Maintain these records yourself. The owner should be able to return without rereading chat history.
 
-## Start
+## Purpose
+
+Keep one short human resume page supported by a maintained hierarchy of scoped agent instructions. Neither replaces the other.
+
+## Ownership
+
+The root owns project-wide rules, durable preferences, the current state entry point and the top-level Child DOX Index. Each child owns its declared subtree and direct-child index. Every parent states what stays with it and what is delegated. Work products, source materials, records, assets and durable docs must be understandable from their nearest AGENTS.md and all applicable parents.
+
+## Local Contracts
+
+AGENTS.md files are binding contracts for their subtrees. The nearer document controls local details; children cannot weaken DOX or inherited project constraints. State summaries do not override contracts. Record a durable user preference in the applicable instruction scope, with a decision pointer when its reasoning matters.
+
+Create a child AGENTS.md when an area becomes a durable boundary with its own purpose, responsibilities, rules, workflow, materials or quality standards. Maintain existing useful children. Do not add a file solely because a folder exists, or move source just to fit a documentation tree.
+
+Every child uses these sections in order: **Purpose, Ownership, Local Contracts, Work Guidance, Verification, Child DOX Index**. Leave Work Guidance or Verification empty if no actual guidance or checks exist; do not invent them. Each Child DOX Index lists direct child instruction files, their scope and what remains with the parent. State explicitly when there are no children.
+
+## Work Guidance
+
+### Start
 
 1. Read applicable project instructions and `START-HERE.md` (or the mapped existing state page). Read linked detail only as needed.
 2. Confirm the actual working folder and relevant source revision or file identity. Check installed/published identity when relevant. A timestamp alone does not establish freshness.
@@ -12,7 +30,15 @@ Keeping the owner's place is part of your work. Maintain these records yourself.
 
 If the state page is missing, establish it from evidence. Map or migrate existing state records before adding another. Preserve parent and child instructions; read the chain for changed paths, not the entire documentation tree.
 
-## The short resume section
+Before any edit, identify the target paths, read the root, walk each path and read every applicable AGENTS.md, following parent child-index entries into the relevant scope. Re-read that chain in the current session; memory is not a substitute.
+
+### Mandatory hierarchy maintenance
+
+Every meaningful change requires a DOX pass before completion, even when the pass concludes that instructions need no edit. Update the nearest owning contract for changes to purpose, scope, ownership, responsibilities, durable structure/workflow/rules, inputs, outputs, permissions, constraints, side effects, artifacts, user preferences, or instruction-file creation/deletion/moves/renames/indexes.
+
+Update affected parents when scope, ownership, workflow or child indexes change. Update children when inherited changes affect their rules. Refresh every affected index. Remove stale or contradictory active guidance while preserving historical evidence in its owning record or version history. Link rather than duplicate global rules in each child. A resume checkpoint does not satisfy this hierarchy pass by itself.
+
+### The short resume section
 
 At the top of the state page, answer:
 
@@ -25,7 +51,7 @@ Aim for 150 words or fewer above “Working details.” Use short sentences and 
 
 Below that, keep exact working-copy and installed/published pointers, verified entry point if applicable, current owner, constraints, scoped evidence and useful reference links. Keep private paths out of public mirrors.
 
-## Checkpoint during work
+### Checkpoint during work
 
 Update after a meaningful result, a failed check that changes the next action, a source/owner change, and before a long operation or handoff. Record the operation about to start. Do not depend on a final reply to save the state.
 
@@ -33,14 +59,14 @@ Keep one current summary. Durable choices go in DECISIONS; thoughts and unfinish
 
 After an abrupt interruption, the checkpoint may lag. Inspect changed files and relevant operation/process state. Do not rerun an operation with possible side effects until checking whether it completed.
 
-## Evidence and boundaries
+### Evidence and boundaries
 
 - Distinguish **changed**, **checks passed**, **owner reported working** and **installed/published**. One does not imply the others. State scope and source.
 - Results belong to a particular source/build and environment. Mark affected claims as needing recheck after changes. Preserve failures until resolved or explicitly superseded with evidence.
 - The working agent owns its checkpoint. For concurrent work, identify a coordinating owner; others submit bounded results to that owner. A note is not a lock. Re-read before merging shared edits; never overwrite another agent's changes from stale context.
 - Preserve stops, deferred work, protected data and approval boundaries. A word budget must not weaken them. Ask only for genuinely missing information or authority that blocks dependent work. Continue independent authorized work.
 
-## Capture and decisions
+### Capture and decisions
 
 Accept rough text without categories, priority or polished wording. Preserve the original thought and date when known. Capture is not implementation approval.
 
@@ -48,13 +74,13 @@ Triage relevant items into the current action, a durable decision, parked, or an
 
 Record decisions that affect future work: choice, status, reason, who decided, date, source and any condition/boundary. Label agent suggestions as proposed. Later choices name what they supersede; retain the earlier record. Reuse an existing decision system rather than duplicating it.
 
-## Conversation and closeout
+### Conversation and closeout
 
 When the owner says they are lost, read and reconcile state, then give three short lines: stopped here, next, need from you. Expand only when useful or requested. Do not ask them to maintain the docs.
 
 Before ending or handing off, checkpoint actual state, link evidence/deliverables, record material decisions and leave one executable next action. Report briefly: result, remaining limitation, next. If maintenance or verification is incomplete, name exactly what is missing in both checkpoint and reply.
 
-## Map
+### File map
 
 - `START-HERE.md`: state, or a pointer to the mapped existing state authority.
 - `INBOX.md`: raw capture and parked thoughts.
@@ -62,3 +88,11 @@ Before ending or handing off, checkpoint actual state, link evidence/deliverable
 - This file: stable workflow. Child instructions are added only for a real local contract, never for hierarchy alone.
 
 This contract provides no background automation, cross-app synchronization, lock or authority beyond the owner's request.
+
+## Verification
+
+Before completion: re-check changed paths against the instruction chain; update owning contracts and affected parents/children; refresh indexes; reconcile stale guidance; run relevant existing checks; record any instructions intentionally left unchanged and why; then save the resume checkpoint. Do not claim a check ran merely because its command is documented.
+
+## Child DOX Index
+
+No child contracts are recorded in this uninstalled starter. During adoption, inspect the project's actual boundaries and replace this section with its direct children and scope descriptions. The root retains all undelegated responsibilities.
