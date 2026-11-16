@@ -1,8 +1,10 @@
-<p align="center"><img src="readme-banner.png" alt="DOX project artwork" width="100%"></p>
-
 # DOX: pick it back up
 
 **Open your project. See where you stopped. Know the next step.**
+
+![Combined DOX in Flutter Deck: a short resume page alongside the root instruction contract, child indexes and scoped agent documents](combined-dox-flutter-deck.png)
+
+**Teal keeps your place. Blue organizes the agents' instructions.** This Flutter Deck example shows how the combined workflow fits together. The render illustrates the documentation layout; it is not a live status display or a new dashboard. Click the image to view it at full size.
 
 DOX is a small Markdown workflow for returning to work after an interruption. The agent keeps your place; you do not have to reconstruct the conversation or maintain a filing system.
 

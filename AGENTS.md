@@ -11,6 +11,7 @@ DOX helps someone return to a project without reconstructing chat history. Prior
 - `starter/AGENTS.md`: portable root contract and scoped owner of the four-file starter; see Child DOX Index.
 - `guides/`: adoption examples, design decisions and child-document template, delegated to `guides/AGENTS.md`.
 - Existing images, `LICENSE` and `COPYRIGHT.md`: preserve files and attribution. Artwork is presentation, not authority.
+- `combined-dox-flutter-deck.png`: owner-approved README illustration of the combined workflow. The root owns its presentation and caption. Treat its product status text as a snapshot, not current evidence. Keep the original decorative banner file preserved even though this explanatory render now leads the README.
 
 ## Work guidance
 

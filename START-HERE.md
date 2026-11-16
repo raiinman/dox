@@ -2,13 +2,13 @@
 
 **Status:** Resume workflow and explicit instruction hierarchy are combined. First trial remains active.
 
-**We stopped here:** Kept the resume page, checkpoints, inbox, decisions and evidence distinctions. Restored scope ownership, child indexes, standard child sections and mandatory hierarchy maintenance in the portable contract and guides.
+**We stopped here:** Combined the resume workflow with mandatory indexed scope contracts. The README now opens with the owner-approved Flutter Deck render showing both layers together.
 
 **Next:** Evaluate the first trial on return from an interruption. Finished when the short page clearly identifies where work stopped and one next action, or the owner's feedback identifies what to fix.
 
 **You need to do:** Use the trial's resume page when returning; no documentation maintenance is assigned to you.
 
-**Checked:** 2026-11-16, America/Phoenix, Codex. Restoration based on `282c233`; link, index, section and preservation checks passed before publication.
+**Checked:** 2026-11-16, America/Phoenix, Codex. README illustration added on top of `2b71a0e`; image identity and local links checked before publication.
 
 ## Working details
 
